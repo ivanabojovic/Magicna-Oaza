@@ -94,6 +94,18 @@ $(document).ready(function () {
             $(this).parent().prev().val(1);
         }
     });
+    if ($('.owl-carousel').length > 0) {
+
+
+        $('.lead-slider').owlCarousel({
+
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayHoverPause: true
+
+        });
+    }//end lead-slider
     
     
 

@@ -431,5 +431,25 @@ img {
 @media (min-width: 992px) {
   .header-action .club span {
     display: inline-block; } }
+.lead-slider {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 30px; }
+
+.owl-dots {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0;
+  color: red; }
+  .owl-dots .owl-dot.active span,
+  .owl-dots .owl-dot:hover span {
+    background: red; }
+
+@media (min-width: 576px) {
+  .lead-slider {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 30px; } }
 
 /*# sourceMappingURL=theme.css.map */
